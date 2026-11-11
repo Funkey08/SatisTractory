@@ -14,7 +14,7 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Vitest](https://img.shields.io/badge/Tested_with-Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
 
-**[Live demo](LIVE_DEMO_URL)** · **[How it works](#how-it-works)** · **[Handling uncertainty](#handling-uncertainty)** · **[Limitations](#limitations)**
+**[Live demo](https://satistractory.lovable.app/)** · **[How it works](#architecture)** · **[Handling uncertainty](#handling-uncertainty)** · **[Limitations](#limitations)**
 
 </div>
 
@@ -22,7 +22,7 @@
 
 Type **any U.S. address** and see how that neighbourhood's census tract compares to its state average on **19 measures** of mental health, chronic disease, social needs, and access to care. Every number shows its margin of error, and an AI-written summary explains the results in plain language.
 
-SatisTractory is built for the people who make decisions about neighbourhoods but rarely have time to dig through public health data: residents curious about the place they live, community organizers deciding where to focus outreach, and local policymakers deciding where resources should go. You can look up one address, or switch to the Explorer to see which tracts in a county carry the heaviest burden on any measure.
+[SatisTractory](https://satistractory.lovable.app/) is built for the people who make decisions about neighbourhoods but rarely have time to dig through public health data: residents curious about the place they live, community organizers deciding where to focus outreach, and local policymakers deciding where resources should go. You can look up one address, or switch to the Explorer to see which tracts in a county carry the heaviest burden on any measure.
 
 
 <p align="center">
@@ -51,6 +51,7 @@ The data to see these patterns already exists. Through its PLACES project, the C
 
 **SatisTractory puts that data behind a search box, and is honest about what the numbers can and can't tell you.**
 
+See the app [here](https://satistractory.lovable.app/).
 
 ## Features
 
