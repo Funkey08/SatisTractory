@@ -39,7 +39,7 @@ SatisTractory is built for the people who make decisions about neighbourhoods bu
 
 ## The problem
 
-Back Bay and Roxbury are about two miles apart in Boston. In one Back Bay census tract, life expectancy is **92 years**. In Roxbury tract, it's **69** ([Boston Public Health Commission, 2025](https://www.boston.gov/sites/default/files/file/2025/02/Live%20Long%20and%20Well%20Report_Final_Feb2025.pdf)). *That's a **23-year difference** within one city.*
+Back Bay and Roxbury are about two miles apart in Boston. In one Back Bay census tract, life expectancy is **92 years**. In one Roxbury tract, it's **69** ([Boston Public Health Commission, 2025](https://www.boston.gov/sites/default/files/file/2025/02/Live%20Long%20and%20Well%20Report_Final_Feb2025.pdf)). *That's a **23-year difference** within one city.*
 
 Gaps like that aren't mainly about genetics or individual choices. They're about things like whether there's a grocery store nearby, whether people can get to a doctor, whether they can keep the heat on in winter, and whether they have someone to call when they're struggling. Public health researchers have a saying for this: "your ZIP code can say more about your health than your genetic code."
 
@@ -68,10 +68,17 @@ The data to see these patterns already exists. Through its PLACES project, the C
 
 **💬 Plain-language summary.** An AI-written paragraph naming the largest gaps. It is generated server-side from numbers the server fetches itself and is instructed to stay neutral, avoid causal claims, and give no medical advice.
 
-**🏥 What's nearby.** Hospitals, clinics, pharmacies, and schools within 1, 3, or 5 km. Official CMS hospital star ratings are shown separately from Google user ratings so the two are never confused.
+**🏥 What's nearby.** Hospitals, clinics, pharmacies, and schools within 1, 3, or 5 km. Official CMS hospital star ratings are shown separately from Google user ratings, so a hospital that's popular online isn't mistaken for one that scores well on federal quality measures.
 
-<details>
-<summary><b>All 19 measures</b></summary>
+<p align="center">
+  <img src="docs/nearby-map.png" alt="Map of hospitals, clinics, pharmacies, and schools near Northeastern University" width="900" />
+</p>
+
+<p align="center">
+  <img src="docs/nearby-hospitals.png" alt="Hospital cards comparing Google user ratings with CMS quality ratings" width="900" />
+</p>
+
+### All 19 measures
 
 | Section | Measures |
 |---|---|
@@ -79,8 +86,6 @@ The data to see these patterns already exists. Through its PLACES project, the C
 | Chronic disease | Diabetes, obesity, high blood pressure, current asthma, COPD, coronary heart disease |
 | Social needs | Food insecurity, housing insecurity, lack of reliable transportation, utility shut-off threat, SNAP receipt |
 | Access to care | No health insurance (18–64), routine checkup, dental visit |
-
-</details>
 
 ## Handling uncertainty
 
